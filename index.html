@@ -1,3 +1,4 @@
+<!--This document contains all the source code for our informational website and the required links to download our mobile application while using a web browser-->
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,48 +7,53 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Slice Foodsharing Application</title>
+
     <!--Ion Icons-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+
     <!--Our own stylesheet-->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <!--The header contains all the scripting for the navbar, the logo and the navigation list menu that appears when the hamburger menu is clicked-->
     <header>
+    <!--This is the container for the Slice logo that appears on the top left side of the page-->
         <div class="container-fluid">
             <nav>
                 <div class="nav-brand">
                     <a href="index.html">SLICE</a>
                 </div>
 
+    <!--This creates the hamburger menu icons (both open and closed)-->            
                 <div class="menu-icons open">
                     <i class="icon ion-md-menu"></i>
                 </div>
 
+    <!--This fosters the creation of the collapsable navlist that can be used to navigate the website-->
                 <ul class="nav-list">
                     <div class="menu-icons close">
                         <i class="icon ion-md-close"></i>
                     </div>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">home</a>
+                        <a href="#" class="nav-link current">home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">about</a>
+                        <a href="#about" class="nav-link">about us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">contact us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">download</a>
+                        <a href="https://play.google.com/store/search?q=slice&hl=en" class="nav-link">download</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!--This fosters the creation of  the jumbotron containing some heading text about us and a link to download and search for the application on Google Play store-->
+    <main>
     <section class="hero">
         <div class="container"></div>
             <div class="main-message">
@@ -60,6 +66,88 @@
     </section>
 
 
+    <!--This fosters the creation of the about us section that contains information about our visions and goals as a startup and what we are aspiring to achieve-->
+    <section id="about" class="information">
+
+    <!--This fosters the creation of the title of the About Us page-->
+        <div class="container-fluid">
+            <div class="title-heading">
+                <h3>About Us</h3>
+                <h1>What are our goals?</h1>
+            </div>
+
+
+    <!--This is the main section of the about us page section containing all the content of our website with icons appended-->
+            <div class="activities-grid">
+
+                <div class="activites-grid-item our-mission">
+                    <i class="icon ion-md-compass"></i>
+                    <h1>Our Mission</h1>
+                    <p>
+                        Creating a world where everyone can have access to food is our primary goal. As of 2019, the United Nations came out with 17 goals.  Slice contributes to trying to accomplish the Goal 2 – “Zero Hunger”. With technology being, our future, we hope to combat the general issue of hunger, using Slice as a modern solution. 
+Solving a massive problem like hunger requires us to look at the contributing factors that relate to the problem. Through research, we have discovered that, although massive amounts of food distributors and sources exist, almost 26% of the world is malnourished. Slice is a solution that triest reduce food waste by being able to distribute it to those who need it the most. 
+Even with many charities and food banks available in and around Halifax, there are still several people that do not have access to food. Being students, we often fi ourselves on a budget and without enough money to eat out.  We wanted to find a way to help people like us, while also contributed to society. We truly believe that Slice is one of the solutions that not only help its society but also with its users
+                    </p>
+                </div>
+
+                <div class="activites-grid-item our-vision">
+                    <i class="icon ion-md-star"></i>
+                    <h1>Our Vision</h1>
+                    <p>
+                        Slice is an online forum that allows its users to post about excess food that they may have, which can then be used by someone else. The concept of “Social Sharing” in the aspect of being able to ultimately feed the community is what we want to achieve. 
+People who throw conventions, workshops and events have the burden of being able to feed a massive crowd. Often, this results in excess amounts of food that tend to go to waste. Restaurants often have the second-largest community that is involved in food wastage. 
+On one hand, you have so many people who lack the resources to obtain food and on the other hand, you have so many places that throw food out almost every day. Even If a part of this wasted food could go towards feeding the needy, it not only pushes our economy up but also brings us closer in achieving the the the development goal set by the United Nations
+                    </p>
+                </div>
+
+                
+                <div class="activites-grid-item who-we-are">
+                    <i class="icon ion-md-book"></i>
+                    <h1>Who we are</h1>
+                    <p>
+                        As a group of students, we always live on a budget. This idea came about when we started attending seminars and events in our university where we realized that a lot of excess food used for these events was being thrown out. We wondered if many such events were happening in and around us where food like pizza and burgers were being thrown out, uneaten. 
+Studying in a computer science field surrounded by technology all the time, we wondered if there was a way to create a solution for this problem which pushed us to brainstorm this idea.
+As a part of course work, we started building a prototype for the idea. As we created the pro-type we quickly realized that this project needed more than just the idea. We wanted to be able to get bigger restaurants involved, we wanted to test out the market place and we were made aware of the food policies that we needed to follow. 
+So, understandably we did exactly those things. We first tested out the market with a set of surveys we added ou to our target customer range. We also spoke to the managers of many restaurants in and around Halifax about food wastage and their interest in the application. Based on both the responses we got we were able to create the prototype, which is Slice.
+                    </p>
+                </div>
+
+                <div class="activites-grid-item star zero-hunger">
+                    <i class="icon ion-md-close"></i>
+                    <h1>Zero Hunger</h1>
+                    <p>
+                        <br>The following data has been taken from the United Nations development goals page.</br>
+
+<br>2.1 By 2030, end hunger and ensure access by all people, in particular the poor and people in vulnerable situations, including infants, to safe, nutritious and sufficient food all year round.</br>
+
+<br>2.2 By 2030, end all forms of malnutrition, including achieving, by 2025, the internationally agreed targets on stunting and wasting in children under 5 years of age, and address the nutritional needs of adolescent girls, pregnant and lactating women and older persons.</br>
+
+<br>2.3 By 2030, double the agricultural productivity and incomes of small-scale food producers, in particular women, indigenous peoples, family farmers, pastoralists and fishers, including through secure and equal access to land, other productive resources, and inputs, knowledge, financial services, markets and opportunities for value addition and non-farm employment. </br>
+
+<br>2.4 By 2030, ensure sustainable food production systems and implement resilient agricultural practices that increase productivity and production, that help maintain ecosystems, that strengthen capacity for adaptation to climate change, extreme weather, drought, flooding, and other disasters and that progressively improve land and soil quality.</br>
+
+<br>2.5 By 2020, maintain the genetic diversity of seeds, cultivated plants and farmed and domesticated animals and their related wild species, including through soundly managed and diversified seed and plant banks at the national, regional and international levels, and promote access to and fair and equitable sharing of benefits arising from the utilization of genetic resources and associated traditional knowledge, as internationally agreed.</br>
+
+<br>2. An Increase investment, including through enhanced international cooperation, in rural infrastructure, agricultural research and extension services, technology development and plant and livestock gene banks to enhance agricultural productive capacity in developing countries, in particular, least developed countries.</br>
+
+<br>2.B Correct and prevent trade restrictions and distortions in world agricultural markets, including through the parallel elimination of all forms of agricultural export subsidies and all export measures with equivalent effect, following the mandate of the Doha Development Round.</br>
+
+<br>2.C Adopt measures to ensure the proper functioning of food commodity markets and their derivatives and facilitate timely access to market information, including on food reserves, to help limit extreme food price volatility.</br>
+
+<br>For more information about the goal and how you could also contribute, please follow the link here
+https://www.un.org/sustainabledevelopment/hunger/</br>
+                    </p>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2020, All rights reserved to Slice Inc.</p>
+    </footer>
 
     <script type="text/javascript" src="scripts.js"></script>
 </body>
